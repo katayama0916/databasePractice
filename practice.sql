@@ -111,7 +111,7 @@ FROM
     countries
 WHERE
     indep_year < '1990'
-        AND population >= '100000'
+        AND population > '100000'
 ;
 
 
